@@ -122,18 +122,18 @@ AviUtl2 のプレビュー画面上にヒストグラムを表示する AivUtl E
 
 | 色空間 | チャンネル構成 | 参考 |
 |:---|:---|:---|
-| `XYZ` | $X\;/\;Y\;/\;Z$ | [sRGB](https://ja.wikipedia.org/wiki/SRGB) に準じた XYZ 色空間への変換． |
-| `RGB` | $R\;/\;G\;/\;B$ | 変換なし． |
-| `sRGB` | $R\;/\;G\;/\;B$ | [sRGB 色空間](https://ja.wikipedia.org/wiki/SRGB) (線形 RGB). |
-| `Oklab` | $L\;/\;a\;/\;b, \quad (L: 0\% \sim 100\%;\; a, b: -33.3\% \sim +33.3\%)$ | [Oklab 色空間](https://en.wikipedia.org/wiki/Oklab_color_space)． |
-| `OKLCH` | $L\;/\;C\;/\;h, \quad (L: 0\% \sim 100\%;\; C: 0\% \sim 33.3\%, h: 0\degree \sim 360\degree)$ | [OKLCh 色空間](https://en.wikipedia.org/wiki/Oklab_color_space)． |
-| `YUV(BT.601)` | $Y\;/\;U\;/\;V, \quad (L: 0\% \sim 100\%;\; U, V: -50\% \sim +50\%)$ | [YUV](https://ja.wikipedia.org/wiki/YUV) への BT.601 準拠の変換． |
-| `YUV(BT.709)` | $Y\;/\;U\;/\;V, \quad (L: 0\% \sim 100\%;\; U, V: -50\% \sim +50\%)$ | YUV への BT.709 準拠の変換． |
-| `YUV(BT.2020)` | $Y\;/\;U\;/\;V, \quad (L: 0\% \sim 100\%;\; U, V: -50\% \sim +50\%)$ | YUV への BT.2020 準拠の変換． |
-| `HSV(円柱)` | $H\;/\;S\;/\;V, \quad (H: 0\degree \sim 360\degree;\; S, V: 0\% \sim 100\%)$ | [HSV 色空間](https://ja.wikipedia.org/wiki/HSV色空間)の円柱座標系． |
-| `HSV(円錐)` | $H\;/\;S\;/\;V, \quad (H: 0\degree \sim 360\degree;\; S, V: 0\% \sim 100\%)$ | HSV 色空間の円錐座標系． |
-| `HSL(円柱)` | $H\;/\;S\;/\;L, \quad (H: 0\degree \sim 360\degree;\; S, L: 0\% \sim 100\%)$ | [HSL 色空間](https://ja.wikipedia.org/wiki/HLS色空間)の円柱座標系． |
-| `HSL(双円錐)` | $H\;/\;S\;/\;L, \quad (H: 0\degree \sim 360\degree;\; S, L: 0\% \sim 100\%)$ | HSL 色空間の双円錐座標系． |
+| `XYZ` | $X\\;/\\;Y\\;/\\;Z$ | [sRGB](https://ja.wikipedia.org/wiki/SRGB) に準じた XYZ 色空間への変換． |
+| `RGB` | $R\\;/\\;G\\;/\\;B$ | 変換なし． |
+| `sRGB` | $R\\;/\\;G\\;/\\;B$ | [sRGB 色空間](https://ja.wikipedia.org/wiki/SRGB) (線形 RGB). |
+| `Oklab` | $L\\;/\\;a\\;/\\;b, \quad (L: 0\\% \sim 100\\%;\\; a, b: -33.3\\% \sim +33.3\\%)$ | [Oklab 色空間](https://en.wikipedia.org/wiki/Oklab_color_space)． |
+| `OKLCH` | $L\\;/\\;C\\;/\\;h, \quad (L: 0\\% \sim 100\\%;\\; C: 0\\% \sim 33.3\\%, h: 0\degree \sim 360\degree)$ | [OKLCh 色空間](https://en.wikipedia.org/wiki/Oklab_color_space)． |
+| `YUV(BT.601)` | $Y\\;/\\;U\\;/\\;V, \quad (L: 0\\% \sim 100\\%;\\; U, V: -50\\% \sim +50\\%)$ | [YUV](https://ja.wikipedia.org/wiki/YUV) への BT.601 準拠の変換． |
+| `YUV(BT.709)` | $Y\\;/\\;U\\;/\\;V, \quad (L: 0\\% \sim 100\\%;\\; U, V: -50\\% \sim +50\\%)$ | YUV への BT.709 準拠の変換． |
+| `YUV(BT.2020)` | $Y\\;/\\;U\\;/\\;V, \quad (L: 0\\% \sim 100\\%;\\; U, V: -50\\% \sim +50\\%)$ | YUV への BT.2020 準拠の変換． |
+| `HSV(円柱)` | $H\\;/\\;S\\;/\\;V, \quad (H: 0\degree \sim 360\degree;\\; S, V: 0\\% \sim 100\\%)$ | [HSV 色空間](https://ja.wikipedia.org/wiki/HSV色空間)の円柱座標系． |
+| `HSV(円錐)` | $H\\;/\\;S\\;/\\;V, \quad (H: 0\degree \sim 360\degree;\\; S, V: 0\\% \sim 100\\%)$ | HSV 色空間の円錐座標系． |
+| `HSL(円柱)` | $H\\;/\\;S\\;/\\;L, \quad (H: 0\degree \sim 360\degree;\\; S, L: 0\\% \sim 100\\%)$ | [HSL 色空間](https://ja.wikipedia.org/wiki/HLS色空間)の円柱座標系． |
+| `HSL(双円錐)` | $H\\;/\\;S\\;/\\;L, \quad (H: 0\degree \sim 360\degree;\\; S, L: 0\\% \sim 100\\%)$ | HSL 色空間の双円錐座標系． |
 
 - `Oklab` や `OKLCH` での彩度の上限が 33.3% なのは，RGB で表現可能な色は概ねこの範囲が限界のためです．
 
