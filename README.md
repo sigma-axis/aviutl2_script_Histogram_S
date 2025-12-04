@@ -8,7 +8,7 @@ AviUtl2 のプレビュー画面上にヒストグラムを表示する AivUtl E
 
 - 動画出力中やプレビュー再生中は自動的に非表示に設定することもできます．
 
-[ダウンロードはこちら．](https://github.com/sigma-axis/aviutl2_script_Histogram_S/releases) \[紹介動画準備中．\]
+[ダウンロードはこちら．](https://github.com/sigma-axis/aviutl2_script_Histogram_S/releases) [紹介動画．](https://www.nicovideo.jp/watch/sm45695828)
 
 <img width="648" height="368" alt="Image of two histograms in front of the source image" src="https://github.com/user-attachments/assets/f411d100-3c88-49f2-8034-a62b6bcb14b6" />
 
