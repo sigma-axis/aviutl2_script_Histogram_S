@@ -10,7 +10,7 @@ AviUtl2 のプレビュー画面上にヒストグラムを表示する AivUtl E
 
 [ダウンロードはこちら．](https://github.com/sigma-axis/aviutl2_script_Histogram_S/releases) \[紹介動画準備中．\]
 
-TODO: image.
+<img width="648" height="368" alt="Image of two histograms in front of the source image" src="https://github.com/user-attachments/assets/f411d100-3c88-49f2-8034-a62b6bcb14b6" />
 
 - 元画像出典: https://www.pexels.com/photo/assorted-car-license-plates-533669
 
@@ -54,7 +54,7 @@ TODO: image.
 
 ##  パラメタの説明
 
-TODO: image of GUI.
+<img width="500" height="702" alt="Image of GUI of the script" src="https://github.com/user-attachments/assets/0afb5410-dbaf-46c8-93b4-5e4bca7009bc" />
 
 ####  幅
 
@@ -113,8 +113,8 @@ TODO: image of GUI.
 
     初期値は -1.
 
-    > [!NOTE]
-    > AviUtl2 では1シーン当たりのレイヤー数に明確な上限がなく，またこのパラメタは時間経過で変化させる使用法は想定されにくいので，トラックバーではなくテキストボックスに直接入力する設定方法にしています．
+> [!NOTE]
+> AviUtl2 では1シーン当たりのレイヤー数に明確な上限がなく，またこのパラメタは時間経過で変化させる使用法は想定されにくいので，「レイヤー指定」はトラックバーではなくテキストボックスに直接入力する設定方法にしています．
 
 ####  色空間
 
@@ -182,7 +182,8 @@ HSV などのように「色相」を持っている色空間に対して，「�
 
 統計結果をグラフにする前に，度数分布を隣り合う区間と平均をとることで，グラフが滑らかになります．パレットベースなど減色した画像や，分布に偏りのある色空間を選んだときに見られる不自然なギザギザが軽減されます．
 
-TODO: sample.
+<img width="552" height="224" alt="Mollified graph of gradiation in a small image" src="https://github.com/user-attachments/assets/35d5fdd2-d78c-41d5-9326-050fc21a7855" />
+<img width="552" height="224" alt="Mollified graph of image with decreased colors" src="https://github.com/user-attachments/assets/c5c1fa49-bae1-4719-85da-bd9902013b66" />
 
 平均をとる隣り合う区間の個数 (自身を除く) を指定，最小値は 0, 最大値は 15, 初期値は 0.
 
