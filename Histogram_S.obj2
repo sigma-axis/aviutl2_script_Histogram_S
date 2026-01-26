@@ -22,7 +22,7 @@ SOFTWARE.
 
 https://mit-license.org/
 ]]
---information:Histogram_S ヒストグラム表示スクリプト v1.00 (for beta22a) by σ軸
+--information:Histogram_S ヒストグラム表示スクリプト v1.10 (for beta30a) by σ軸
 --label:編集補助\色調整
 --track@width:幅,256,1024,256,1
 --track@height:高さ,16,400,100,1
@@ -42,7 +42,7 @@ https://mit-license.org/
 --check@colorful:色を付ける,true
 --check@grid:罫線,true
 --track@pos_labels:ラベル位置,-100,100,-100,0.001
---select@hide_mode:表示モード=1,常に表示=0,動画出力中は非表示=1,プレビュー再生中も非表示=2
+--select@hide_mode:表示モード=1,常に表示=0,動画出力中は非表示=1
 --[[pixelshader@to_xyz:
 Texture2D src : register(t0);
 float3 to_lin(float3 c)
@@ -304,10 +304,8 @@ float4 draw(float4 pos : SV_Position) : SV_Target
 	return col;
 }
 ]]
-local width,height,target,target_layer,space,hue_weighted,alpha,amplify,scale,mollify,col_draw,col_back,alpha_back,colorful,grid,pos_labels,hide_mode=width,height,target,target_layer,space,hue_weighted,alpha,amplify,scale,mollify,col_draw,col_back,alpha_back,colorful,grid,pos_labels,hide_mode;
 local obj, math, bit = obj, math, bit;
-if (hide_mode >= 1 and obj.getinfo("saving")) or
-	(hide_mode == 2 and not obj.getoption("gui")) then return end
+if hide_mode >= 1 and obj.getinfo("saving") then return end
 
 -- normalize parameters.
 width = math.max(math.floor(0.5 + width), 256);

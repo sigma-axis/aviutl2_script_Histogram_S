@@ -20,7 +20,7 @@ AviUtl2 のプレビュー画面上にヒストグラムを表示する AivUtl E
 
   http://spring-fragrance.mints.ne.jp/aviutl
 
-  - `beta22a` で動作確認済み．
+  - `beta30a` で動作確認済み．
 
 ##  導入方法
 
@@ -227,7 +227,7 @@ HSV などのように「色相」を持っている色空間に対して，「�
 
 ####  表示モード
 
-動画出力中やプレビュー再生中は自動的に非表示に設定することができます．次の選択肢があります:
+動画出力中は自動的に非表示に設定することができます．次の選択肢があります:
 
 1.  `常に表示`
 
@@ -237,13 +237,16 @@ HSV などのように「色相」を持っている色空間に対して，「�
 
     動画出力中には非表示になりますが，プレビュー再生中は表示されます．
 
-1.  `プレビュー再生中も非表示`
-
-    動画出力中とプレビュー再生中の両方で非表示になります (停止中のプレビュー画面でのみ表示されます).
-
 初期値は `動画出力中は非表示`.
 
 ##  改版履歴
+
+- **v1.10 (for beta30a)** (2026-01-??)
+
+  - 「表示モード」から「プレビュー再生中も非表示」の選択肢を削除．
+    - AviUtl2 beta28 での仕様変更により機能しなくなっていた．
+
+  - `beta30a` での動作確認．
 
 - **v1.00 (for beta21)** (2025-12-05)
 
@@ -258,7 +261,7 @@ HSV などのように「色相」を持っている色空間に対して，「�
 
 The MIT License (MIT)
 
-Copyright (C) 2025 sigma-axis
+Copyright (C) 2025-2026 sigma-axis
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
